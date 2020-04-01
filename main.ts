@@ -18,3 +18,5 @@ let mySprite = sprites.create(img`
 `, SpriteKind.Player)
 controller.moveSprite(mySprite, 100, 100)
 scene.setBackgroundColor(0)
+mySprite.say("Hello")
+mySprite.startEffect(effects.fire)
