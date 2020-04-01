@@ -18,7 +18,7 @@ let mySprite = sprites.create(img`
 `, SpriteKind.Player)
 controller.moveSprite(mySprite, 100, 100)
 scene.setBackgroundColor(0)
-mySprite.say("Hello")
+mySprite.say("Hello", 2000)
 mySprite.startEffect(effects.fire)
 let helloKitty = sprites.create(img`
 . . . . . . . . . . . . . 2 2 . . . . . . . . . 
@@ -40,4 +40,8 @@ f f f f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f f f f
 . . . . . . . f f f f f f f f f f . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
-helloKitty.setPosition(20, 20)
+helloKitty.setPosition(45, 25)
+pause(2000)
+helloKitty.say("Whoa", 2000)
+pause(2000)
+helloKitty.say("You're on fire")
