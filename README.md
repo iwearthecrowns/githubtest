@@ -1,6 +1,7 @@
 # githubtest ![Build status badge](https://github.com/iwearthecrowns/githubtest/workflows/MakeCode/badge.svg)
 
-
+04/01/20 3:38 pm
+Edited code from another computer, and pushed revisions to master. Returned to original computer. No notice that the code had changed. Pulled changed from GH icon. Got a github fail badge in readme.md
 
 ## Use this extension
 
