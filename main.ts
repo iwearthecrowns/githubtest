@@ -16,6 +16,25 @@ let mySprite = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
+let mySprite2 = sprites.create(img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . e e e e e e e . . . . 
+. . . . e e e e e e e e e . . . 
+. . . . e e e e e e e e e . . . 
+. . . . e e f e e e f e e . . . 
+. . . . e e e e e e e e e . . . 
+. . . . e e e e e e e e e . . . 
+. . . . e f f e e e f f e . . . 
+. . . . e e f f f f f e e . . . 
+. . . . . e e e e e e e . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, SpriteKind.Player)
+mySprite2.setPosition(100, 60)
 controller.moveSprite(mySprite, 100, 100)
 scene.setBackgroundColor(0)
 mySprite.say("Hello", 2000)
