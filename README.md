@@ -1,6 +1,11 @@
 # githubtest ![Build status badge](https://github.com/iwearthecrowns/githubtest/workflows/MakeCode/badge.svg)
 
-04/02/20 3:48 pm
+04//01/20 7:14 pm
+Tested how long it would take for a push from another computer to be detected on the Nuc. I waited over 13 minutes, and nothing... so, if you're working alone (and also if you're working with a collaborator), part of your workflow should maybe include a pull from GitHub so you have the most current version of your code at your workspace.
+
+If you were not working with GitHub, you'd do the same thing. If you were saving to your cloud drive or your flash drive, you'd overwrite your code and carry it around with you.
+
+04/01/20 3:48 pm
 Added a sprite and set its position to the top left corner of the game screen. Went through the process of committing changes to GitHub to see what happens to readme.md and appearance of icons on MakeCode screen.
 
 Project open on another computer is spinning/buffering- is not loading
