@@ -1,21 +1,21 @@
 color.setColor(3, color.rgb(233, 29, 99))
 let mySprite = sprites.create(img`
-3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
-3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
-3 3 . . . . . . . 3 . . . . 3 3 
-3 3 . . . . . . 3 3 3 . . . 3 3 
-3 3 . . d d d d d 3 3 3 . . 3 3 
-3 3 . d d d d d d d 3 3 3 . 3 3 
-3 3 . d d d d d d d d 3 . . 3 3 
-3 3 . d d f d d d f d d . . 3 3 
-3 3 . d d d d d d d d d . . 3 3 
-3 3 . d d d d d d d d d . . 3 3 
-3 3 . d f f d d d f f d . . 3 3 
-3 3 . d d f f f f f d d . . 3 3 
-3 3 . . d d d d d d d . . . 3 3 
-3 3 . . . . . . . . . . . . 3 3 
-3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
-3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . d d d d d d d . . . . . 
+. . . d d d d d d d d d . . . . 
+. . . d d d d d d d d d . . . . 
+. . . d d f d d d f d d . . . . 
+. . . d d d d d d d d d . . . . 
+. . . d d d d d d d d d . . . . 
+. . . d f f d d d f f d . . . . 
+. . . d d f f f f f d d . . . . 
+. . . . d d d d d d d . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
 let mySprite2 = sprites.create(img`
 . . . . . . . . . . . . . . . . 
@@ -51,7 +51,7 @@ mySprite2.say("Whoa", 2000)
 pause(2000)
 mySprite2.say("You're on fire", 2000)
 pause(2000)
-mySprite2.startEffect(effects.halo)
+mySprite2.startEffect(effects.bubbles)
 mySprite2.follow(mySprite, 50)
 mySprite.say("NO...", 2000)
 pause(2000)
